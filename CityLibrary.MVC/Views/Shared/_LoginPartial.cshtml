@@ -1,0 +1,12 @@
+﻿<ul class="nav navbar-nav navbar-right">
+    @if (Session["UserName"] == null)
+    {
+        <li>@Html.ActionLink("Login", "Login", "Account")</li>
+    }
+    else
+    {
+        <li>@Html.Label("userName", "Hello " + @Session["UserName"].ToString(), new { @class = "navbar-brand" });</li>
+        <li>@Html.ActionLink("Logout", "Logout", "Account")</li>
+    }
+</ul>
+
