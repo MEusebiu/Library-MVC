@@ -28,3 +28,20 @@ textarea {
     font-size:15px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+.title-text{
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight:bold;
+}
+
+.home-image {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.footer-container p{
+    text-align:center;
+}

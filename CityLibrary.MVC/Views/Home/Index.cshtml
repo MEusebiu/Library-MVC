@@ -2,16 +2,18 @@
     ViewBag.Title = "Home Page";
 }
 
-<h2 class="text-center">Welcome to the City Library </h2>
+@Styles.Render("~/Content/Site.css")
+
+<h2 class="title-text">Welcome to the City Library !</h2>
 <hr />
 <div class="col-sm-12">
-    <img style="height:500px; width:100%; background-size:cover;" src="~/Images/librarypc.jpg" />
+    <img class="home-image" src="~/Images/librarypc.jpg" />
 </div>
 <hr />
 <div class="col-sm-12">
     <p class="library-text">
-        The Manchester City Library was established in the mid-1850s, and serves the population of Manchester, the largest city in the state of New Hampshire. It is one of twelve libraries in the GMILCS consortium (Greater Manchester Integrated Library Cooperative System) 
-        that provides materials and services to the greater Manchester area,[1] and is on the U.S. Department of Interior's National Register of Historic Places, listed under the Victory Park Historic District as a contributing property,[2] one of the four buildings that 
+        The Manchester City Library was established in the mid-1850s, and serves the population of Manchester, the largest city in the state of New Hampshire. It is one of twelve libraries in the GMILCS consortium (Greater Manchester Integrated Library Cooperative System)
+        that provides materials and services to the greater Manchester area,[1] and is on the U.S. Department of Interior's National Register of Historic Places, listed under the Victory Park Historic District as a contributing property,[2] one of the four buildings that
         face the park.
     </p>
 </div>
