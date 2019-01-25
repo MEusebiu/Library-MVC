@@ -7,13 +7,13 @@ namespace CityLibrary.MVC.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class InitialMigration : IMigrationMetadata
+    public sealed partial class Initil : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initil));
         
         string IMigrationMetadata.Id
         {
-            get { return "201808291937298_InitialMigration"; }
+            get { return "201901251353274_Initil"; }
         }
         
         string IMigrationMetadata.Source
